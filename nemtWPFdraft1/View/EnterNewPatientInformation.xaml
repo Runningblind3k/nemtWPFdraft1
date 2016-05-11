@@ -1,0 +1,40 @@
+﻿<Window x:Class="nemtWPFdraft1.View.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nemtWPFdraft1.View"
+        mc:Ignorable="d"
+        Title="LoginView"
+        Height="720"
+        Width="1280"
+        ResizeMode="CanResize"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"
+        Background="SkyBlue">
+
+
+    <Grid>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="993" Height="472" Margin="92,71,187,146" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Grid.Row="0" FontSize="25" Margin="0,-1,0,1">First Name</Label>
+            <Label Grid.Column="1" FontSize="25" Margin="538,1,-439,0" Grid.RowSpan="2">Last Name</Label>
+            <TextBox Grid.Column="1" Grid.Row="0" Name="PTFirstName" Width="200" Text="{}" Margin="5,1,21,0" Grid.RowSpan="2"/>
+            <TextBox Grid.Column="1" Name="PTMiddleInitial" Text="{}" Margin="415,0,-267,1" Grid.RowSpan="1"/>
+            <TextBox Grid.Column="1" Name="PTLastName" Width="200" Text="{}" Margin="653,1,-651,0" Grid.RowSpan="2"/>
+            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Width="107" FontSize="25" Margin="794,497,-653,-497">
+                Submit
+            </Button>
+            <Label Grid.Column="1" FontSize="25" Margin="260,0,-189,0" Content="Middle Initial"/>
+
+        </Grid>
+    </Grid>
+</Window>
