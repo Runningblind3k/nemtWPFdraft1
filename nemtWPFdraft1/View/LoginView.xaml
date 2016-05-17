@@ -16,7 +16,7 @@
         ResizeMode="CanResize"
         WindowStartupLocation="CenterScreen"
         WindowState="Maximized"
-        Background="SkyBlue">
+        Background="#363636">
     
         
     <Grid>
@@ -30,8 +30,8 @@
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
-            <Label Grid.Column="0" Grid.Row="0" FontSize="25">User Name</Label>
-            <Label Grid.Column="0" Grid.Row="1" FontSize="25">Password</Label>
+            <Label Grid.Column="0" Grid.Row="0" FontSize="25" Foreground="White">User Name</Label>
+            <Label Grid.Column="0" Grid.Row="1" FontSize="25" Foreground="White">Password</Label>
             <TextBox Grid.Column="1" Grid.Row="0" Name="UserNameTextBox" Width="200" Text="{}"/>
             <TextBox Grid.Column="1" Grid.Row="1" Name="PasswordTextBox" Width="200" Text="{}"/>
             <Button Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" HorizontalAlignment="Center" Width="auto" FontSize="25">
@@ -39,5 +39,6 @@
             </Button>
 
         </Grid>
+        <Image x:Name="___nemtWPFdraft1_component_merit_transparent_logo_png" Margin="0,5,845,509" Source="/nemtWPFdraft1;component/merit_transparent_logo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
     </Grid>
 </Window>
