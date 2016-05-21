@@ -15,6 +15,7 @@
 
 
     <Grid Margin="0,0,3,0">
+        <Image x:Name="___nemtWPFdraft1_component_Bar_gray_light_png" Margin="0,0,-1,641" Source="/nemtWPFdraft1;component/Bar-gray-light.png" Stretch="Fill"/>
         <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="1114" Height="472" Margin="82,71,73,146" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
@@ -25,14 +26,12 @@
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
-            <Label Grid.Column="0" Grid.Row="0" FontSize="25" Margin="-7,4,7,0" Height="45" VerticalAlignment="Top" Grid.RowSpan="3" RenderTransformOrigin="0.808,0.444" Foreground="White">First Name</Label>
-            <Label Grid.Column="1" FontSize="25" Margin="566,-1,-467,1" Foreground="White">Last Name</Label>
-            <TextBox Grid.Row="0" Name="PTFirstName" Text="{}" Margin="13,-1,143,1" Grid.Column="1"/>
-            <TextBox Grid.Column="1" Name="PTMiddleInitial" Text="{}" Margin="448,-1,-130,2" Grid.RowSpan="1"/>
-            <TextBox Grid.Column="1" Name="PTLastName" Text="{}" Margin="698,-1,-601,1"/>
-            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Width="107" FontSize="25" Margin="908,449,-610,-449" >
-                Submit
-            </Button>
+            <Label Grid.Column="0" Grid.Row="0" FontSize="25" Margin="-7,4,7,0" Height="45" VerticalAlignment="Top" Grid.RowSpan="3" RenderTransformOrigin="0.808,0.444" Foreground="White" Content="First Name"/>
+            <Label Grid.Column="1" FontSize="25" Margin="566,-1,-467,1" Foreground="White" Content="Last Name"/>
+            <TextBox Grid.Row="0" x:Name="PTFirstName" Text="" Margin="13,-1,143,1" Grid.Column="1"/>
+            <TextBox Grid.Column="1" x:Name="PTMiddleInitial" Text="" Margin="448,-1,-130,2" Grid.RowSpan="1"/>
+            <TextBox Grid.Column="1" x:Name="PTLastName" Text="" Margin="698,-1,-601,1"/>
+            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Width="107" FontSize="25" Margin="908,449,-610,-449" Content="Submit" />
             <Label Grid.Column="1" FontSize="25" Margin="288,-1,-62,1" Content="Middle Initial" Foreground="White"/>
             <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTprimaryaddress" Text="" Margin="24,63,-273,-70"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="25" Margin="27,23,-66,-30" Content="Patient's Primary Residence" Foreground="White"/>
@@ -42,6 +41,7 @@
             <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTprimaryaddress_Copy1" Text="" Margin="351,158,-238,-165"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="25" Margin="20,118,123,-125" Height="45" VerticalAlignment="Top" Content="Primary Phone#" Foreground="White"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="25" Margin="348,118,-205,-120" Height="45" VerticalAlignment="Top" Content="Secondary Phone#" Foreground="White"/>
+            <Label Grid.Column="1" FontSize="35" Margin="698,-76,-502,68" Content="Billing" Foreground="Black" FontWeight="Bold"/>
         </Grid>
         <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="1230" Height="375" Margin="205,175,-166,139" >
             <Grid.RowDefinitions>
@@ -56,7 +56,7 @@
                 <ColumnDefinition Width="235*"/>
                 <ColumnDefinition Width="398*"/>
             </Grid.ColumnDefinitions>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="55,163,387,-25" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Foreground="White">Logisticare</Label>
+            <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="55,163,387,-25" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Foreground="White" Content="Logisticare"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="55,283,387,-139" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Content="Private Pay" Foreground="White"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="55,207,387,-68" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Content="Medi-Cal" Foreground="White"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="55,243,387,-98" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Content="Partnership" Foreground="White"/>
@@ -65,6 +65,6 @@
             <CheckBox x:Name="Partnership" Margin="33,216,0,-101" VerticalAlignment="Top" Height="45" IsChecked="{x:Null}" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Width="27"/>
             <CheckBox x:Name="Private_Pay" Margin="33,253,0,-124" VerticalAlignment="Top" Height="35" IsChecked="{x:Null}" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Width="17"/>
         </Grid>
-        <Image x:Name="___nemtWPFdraft1_component_merit_transparent_logo_png" Margin="0,5,1067,600" Source="/nemtWPFdraft1;component/merit_transparent_logo.png" Stretch="Fill"/>
+        <Image x:Name="___nemtWPFdraft1_component_merit_transparent_logo2_png" Margin="60,0,1165,641" Source="/nemtWPFdraft1;component/merit_transparent_logo2.png" Stretch="Fill"/>
     </Grid>
 </Window>
