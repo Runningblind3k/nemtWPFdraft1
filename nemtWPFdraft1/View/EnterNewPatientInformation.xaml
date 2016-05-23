@@ -15,7 +15,7 @@
 
 
     <Grid Margin="0,0,3,0">
-        <Image x:Name="___nemtWPFdraft1_component_Bar_gray_light_png" Margin="0,0,-1,641" Source="/nemtWPFdraft1;component/Bar-gray-light.png" Stretch="Fill"/>
+        <Image x:Name="___nemtWPFdraft1_component_Bar_gray_light_png" Margin="0,6,-1,635" Source="/nemtWPFdraft1;component/Bar-gray-light.png" Stretch="Fill"/>
         <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="1114" Height="472" Margin="10,71,145,146" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
@@ -41,9 +41,11 @@
             <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTprimaryaddress_Copy1" Text="" Margin="351,158,-238,-139"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="25" Margin="20,118,123,-125" Height="45" VerticalAlignment="Top" Content="Primary Phone#" Foreground="White"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="25" Margin="348,118,-205,-120" Height="45" VerticalAlignment="Top" Content="Secondary Phone#" Foreground="White"/>
-            <Label Grid.Column="1" FontSize="35" Margin="698,-76,-502,68" Content="Billing" Foreground="Black" FontWeight="Bold"/>
+            <Label Grid.Column="1" FontSize="35" Margin="525,-72,-329,64" Content="Billing" Foreground="Black" FontWeight="Bold"/>
             <TextBox Grid.Column="1" x:Name="PTLastName_Copy" Text="" Margin="753,63,-602,-44" Grid.Row="2"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="25" Margin="748,22,-592,-29" Content="Date of Birth" Foreground="White"/>
+            <Label Grid.Column="1" FontSize="35" Margin="663,-71,-467,63" Content="Scheduling" Foreground="Black" FontWeight="Bold"/>
+            <Label Grid.Column="1" FontSize="35" Margin="870,-71,-674,63" Content="Settings" Foreground="Black" FontWeight="Bold"/>
         </Grid>
         <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="1230" Height="375" Margin="1,175,38,139" >
             <Grid.RowDefinitions>
@@ -69,6 +71,6 @@
             <TextBox Grid.Column="2" Grid.Row="2" x:Name="PTprimaryaddress_Copy2" Text="" Margin="144,213,108,-28"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="139,187,108,-16" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Foreground="White" Content="Medi-Cal Identification No."/>
         </Grid>
-        <Image x:Name="___nemtWPFdraft1_component_merit_transparent_logo2_png" Margin="60,0,1165,641" Source="/nemtWPFdraft1;component/merit_transparent_logo2.png" Stretch="Fill"/>
+        <Image x:Name="___nemtWPFdraft1_component_merit_transparent_logo2_png" Margin="60,6,1165,635" Source="/nemtWPFdraft1;component/merit_transparent_logo2.png" Stretch="Fill"/>
     </Grid>
 </Window>
