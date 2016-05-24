@@ -1,0 +1,77 @@
+﻿<!-- This is a comment in XAML
+    
+    XAML is basically a description of a user interface. -->
+
+<Window x:Class="nemtWPFdraft1.View.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nemtWPFdraft1.View"
+        mc:Ignorable="d"
+        Title="LoginView"
+        Height="720"
+        Width="1280"
+        ResizeMode="CanResize"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized"
+        Background="#323a45">
+
+
+    <Grid>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto" Margin="482,403,474,240" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="8.128"/>
+                <RowDefinition Height="37.872"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+        </Grid>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy1" Text="" Margin="82,191,311,473"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16                                " Foreground="White" Content="Current Diagnoses (Primary):" Margin="82,162,951,497"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy" Text="" Margin="82,191,311,473"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16                                " Foreground="White" Content="(Secondary):" Margin="82,242,951,417"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16                                " Foreground="White" Content="(From) Date" Margin="82,88,951,571"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy4" Text="" Margin="82,118,1019,547"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16                                " Foreground="White" Content="(To) Date" Margin="285,88,749,571"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy5" Text="" Margin="285,118,817,547"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16                                " Foreground="White" Content="Specify:" Margin="82,395,951,264"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy6" Text="" Margin="82,423,311,240"/>
+        <Grid>
+            <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="auto" Height="auto" Margin="482,403,474,240" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="8.128"/>
+                    <RowDefinition Height="37.872"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+            </Grid>
+            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy7" Text="" Margin="82,191,311,473"/>
+            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy8" Text="" Margin="82,191,311,473"/>
+            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy13" Text="" Margin="82,423,311,216"/>
+            <Label Grid.Column="0" Grid.Row="0" FontSize="16                                " Foreground="White" Content="Patient's Authorized Representative (If Any) Enter Name Address" Margin="82,500,714,159"/>
+            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy14" Text="" Margin="82,528,714,61"/>
+            <Label Grid.Column="0" Grid.Row="0" FontSize="16                                " Foreground="White" Content="Physician Name" Margin="604,500,429,159"/>
+            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy15" Text="" Margin="604,528,459,136"/>
+            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy16" Text="" Margin="604,603,459,61"/>
+            <Label Grid.Column="0" Grid.Row="0" FontSize="16                                " Foreground="White" Content="Physician Phone No." Margin="604,573,429,86"/>
+            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy17" Text="" Margin="963,603,100,61"/>
+            <Label Grid.Column="0" Grid.Row="0" FontSize="16                                " Foreground="White" Content="Physician Provider Number" Margin="963,573,70,86"/>
+            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy2" Text="" Margin="82,274,311,391"/>
+            <CheckBox x:Name="checkBox" Content="Confined To Wheel Chair" HorizontalAlignment="Left" Margin="82,358,0,0" VerticalAlignment="Top" FontSize="18.667" Foreground="White" Checked="checkBox_Checked"/>
+            <CheckBox x:Name="checkBox_Copy" Content="Ambulatory W/Assistance" HorizontalAlignment="Left" Margin="334,358,0,0" VerticalAlignment="Top" FontSize="18.667" Foreground="White" Checked="checkBox_Copy_Checked"/>
+            <CheckBox x:Name="checkBox_Copy1" Content="Ambulatory" HorizontalAlignment="Left" Margin="604,358,0,0" VerticalAlignment="Top" FontSize="18.667" Foreground="White" Checked="checkBox_Copy_Checked"/>
+        </Grid>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16                                " Foreground="White" Content="Patient's General Condition, Limitations and Nursing Procedures Required:" Margin="82,322,99,337"/>
+    </Grid>
+</Window>
