@@ -32,7 +32,7 @@
             <Label Grid.Column="0" Grid.Row="0" FontSize="25" Foreground="White" Margin="-175,-186,175,186" Content="Response to Call"/>
             <Label Grid.Column="0" FontSize="25" Foreground="White" Margin="-175,-144,175,144" Content="Mileage"/>
             <TextBox Grid.Row="0" Name="UserNameTextBox" Text="{}" Margin="35,-176,47,194"/>
-            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Width="auto" FontSize="25" Margin="438,244,-303,-244">
+            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Width="auto" FontSize="25" Margin="493,237,-358,-237">
                 Login
             </Button>
             <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy" Text="" Margin="35,-134,47,152"/>
@@ -42,7 +42,7 @@
             <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy4" Text="" Margin="33,-52,49,70"/>
             <Label Grid.Column="0" FontSize="25" Foreground="White" Margin="-175,-103,175,103" Content="O2"/>
             <Label Grid.Column="1" FontSize="25" Foreground="White" Margin="238,-185,-230,185" Content="Gurney Call"/>
-            <Label Grid.Column="1" FontSize="25" Foreground="White" Margin="239,-150,-231,150" Content="Gurney Mileage"/>
+            <Label Grid.Column="1" FontSize="25" Foreground="White" Margin="238,-140,-230,140" Content="Gurney Mileage"/>
             <Label Grid.Column="0" FontSize="25" Foreground="White" Margin="-177,-60,177,60" Content="Attendant"/>
             <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy5" Text="" Margin="453,-95,-363,113" Grid.Column="1"/>
             <Label Grid.Column="1" FontSize="25" Foreground="White" Margin="243,-103,-235,103" Content="Attendant"/>

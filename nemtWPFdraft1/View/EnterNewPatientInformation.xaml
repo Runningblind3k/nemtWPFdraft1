@@ -44,7 +44,7 @@
             <Label Grid.Column="1" FontSize="35" Margin="525,-72,-329,64" Content="Billing" Foreground="Black" FontWeight="Bold"/>
             <TextBox Grid.Column="1" x:Name="PTLastName_Copy" Text="" Margin="753,63,-602,-44" Grid.Row="2"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="25" Margin="748,22,-592,-29" Content="Date of Birth" Foreground="White"/>
-            <Label Grid.Column="1" FontSize="35" Margin="663,-71,-467,63" Content="Scheduling" Foreground="Black" FontWeight="Bold"/>
+            <Label Grid.Column="1" FontSize="35" Margin="661,-71,-465,63" Content="Scheduling" Foreground="Black" FontWeight="Bold"/>
             <Label Grid.Column="1" FontSize="35" Margin="870,-71,-674,63" Content="Settings" Foreground="Black" FontWeight="Bold"/>
         </Grid>
         <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="1230" Height="375" Margin="1,175,38,139" >
