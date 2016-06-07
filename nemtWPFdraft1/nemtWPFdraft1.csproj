@@ -59,7 +59,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ViewModel\LoginWindowModel.cs" />
+    <Compile Include="ViewModel\AdminPageViewModel.cs" />
+    <Compile Include="ViewModel\EnterNewPatientInformationViewModel.cs" />
+    <Compile Include="ViewModel\LoginWindowViewModel.cs" />
+    <Compile Include="ViewModel\ManageRatesViewModel.cs" />
+    <Compile Include="ViewModel\ScheduleAnAppointmentViewModel.cs" />
     <Compile Include="View\AdminPage.xaml.cs">
       <DependentUpon>AdminPage.xaml</DependentUpon>
     </Compile>
