@@ -32,27 +32,37 @@
 
         </Grid>
         <Image x:Name="___nemtWPFdraft1_component_merit_transparent_logo_png" Margin="0,5,845,509" Source="/nemtWPFdraft1;component/merit_transparent_logo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
-        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy1" Text="" Margin="975,220,137,439"/>
-        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Verbal Control No." Margin="40,185,993,474"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy1" Text="" Margin="348,120,764,544"/>
         <Label Grid.Column="0" Grid.Row="0" FontSize="16
                
-               " Foreground="White" Content="Provider Phone No." Margin="975,191,58,468"/>
-        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy2" Text="" Margin="40,332,764,237"/>
-        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Provider Number" Margin="614,302,420,357"/>
-        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Type Your Name and Address Here" Margin="40,302,828,357"/>
-        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="(Area)" Margin="975,257,58,402"/>
-        <CheckBox x:Name="Medi_Cal" Margin="614,215,0,0" VerticalAlignment="Top" Height="43" IsChecked="{x:Null}" HorizontalAlignment="Left" Width="52"/>
-        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Request is Retroactive?" Margin="572,169,420,490"/>
-        <CheckBox x:Name="Medi_Cal_Copy" Margin="688,215,0,0" VerticalAlignment="Top" Height="43" IsChecked="{x:Null}" HorizontalAlignment="Left" Width="52"/>
-        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Medical Record Number" Margin="614,465,376,194"/>
-        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Patient Name (Last, First, M.I.)" Margin="100,550,828,109"/>
-        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Medi-Cal Identification No." Margin="588,592,340,67"/>
-        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Pend." Margin="1132,579,58,80"/>
-        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy3" Text="" Margin="614,332,498,327"/>
-        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy4" Text="" Margin="614,495,498,164"/>
-        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy8" Text="" Margin="40,215,1072,444"/>
-        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy" Text="" Margin="588,622,524,37"/>
-        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy5" Text="" Margin="100,579,1012,80"/>
-        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy6" Text="" Margin="1132,614,58,45"/>
+               " Foreground="White" Content="Provider Phone No." Margin="348,91,685,568"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy2" Text="" Margin="81,244,601,345"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Provider Number" Margin="725,214,309,445"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Type Your Name and Address Here" Margin="81,214,787,445"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="(Area)" Margin="361,150,672,509"/>
+        <CheckBox x:Name="Medi_Cal" Margin="123,137,0,0" VerticalAlignment="Top" Height="43" IsChecked="{x:Null}" HorizontalAlignment="Left" Width="52"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Request is Retroactive?" Margin="81,91,911,568"/>
+        <CheckBox x:Name="Medi_Cal_Copy" Margin="197,137,0,0" VerticalAlignment="Top" Height="43" IsChecked="{x:Null}" HorizontalAlignment="Left" Width="52"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Medical Record Number" Margin="81,376,909,283"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Patient Name (Last, First, M.I.)" Margin="77,468,851,191"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Medi-Cal Identification No." Margin="725,468,203,191"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Admit Date" Margin="82,568,1048,91"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Yes" Margin="109,158,1116,501"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="No" Margin="187,158,1038,501"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy" Text="" Margin="725,244,387,420"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy3" Text="" Margin="81,406,1031,257"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy4" Text="" Margin="82,598,1055,65"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy5" Text="" Margin="725,498,167,165"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="This Service" Margin="82,624,1048,35"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Date" Margin="261,568,869,91"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy6" Text="" Margin="261,598,876,65"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Benefits Exhausted" Margin="261,624,869,35"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Sex" Margin="445,568,685,91"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy7" Text="" Margin="445,598,786,65"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Date of Birth" Margin="536,568,594,91"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy8" Text="" Margin="536,598,601,65"/>
+        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Foreground="White" Content="Social Security Claim No." Margin="725,568,356,91"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy9" Text="" Margin="725,598,356,65"/>
+        <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy10" Text="" Margin="83,498,601,165"/>
     </Grid>
 </Window>
