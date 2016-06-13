@@ -41,11 +41,11 @@
             <Label Grid.Column="1" FontSize="35" Margin="870,-71,-674,63" Content="Settings" Foreground="Black" FontWeight="Bold"/>
             <TextBox Grid.Row="2" x:Name="PTprimaryaddress_Copy2" Text="" Margin="100,145,-132,-93" Grid.ColumnSpan="2"/>
             <Label Grid.Row="2" FontSize="25" Margin="95,105,83,-112" Content="Drop off location:" Foreground="White" Grid.ColumnSpan="2"/>
-            <CheckBox x:Name="Private Pay" Content="Private Pay" HorizontalAlignment="Left" Margin="25,473,0,-409" Grid.Row="2" VerticalAlignment="Top" Foreground="White"/>
+            <CheckBox x:Name="PrivatePay" Content="Private Pay" HorizontalAlignment="Left" Margin="25,473,0,-409" Grid.Row="2" VerticalAlignment="Top" Foreground="White"/>
             <TextBox Grid.Row="2" x:Name="PTprimaryaddress_Copy1" Text="" Margin="100,269,-132,-217" Grid.ColumnSpan="2"/>
             <Label Grid.Row="2" FontSize="25" Margin="95,229,83,-236" Content="Third leg trip:" Foreground="White" Grid.ColumnSpan="2"/>
-            <CheckBox x:Name="Private_Pay" Content="Round Trip" HorizontalAlignment="Left" Margin="102,196,0,-130" Grid.Row="2" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2"/>
-            <CheckBox x:Name="Private_Pay_Copy" Content="Needs a Return Trip." HorizontalAlignment="Left" Margin="100,316,0,-247" Grid.Row="2" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2"/>
+            <CheckBox x:Name="RoundTrip" Content="Round Trip" HorizontalAlignment="Left" Margin="102,196,0,-130" Grid.Row="2" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2"/>
+            <CheckBox x:Name="ReturnTrip" Content="Needs a Return Trip." HorizontalAlignment="Left" Margin="100,316,0,-247" Grid.Row="2" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2"/>
         </Grid>
         <Image x:Name="___nemtWPFdraft1_component_merit_transparent_logo2_png" Margin="60,6,1165,635" Source="/nemtWPFdraft1;component/merit_transparent_logo2.png" Stretch="Fill"/>
     </Grid>

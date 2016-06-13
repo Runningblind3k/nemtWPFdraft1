@@ -36,7 +36,7 @@
             </Button>
 
         </Grid>
-        <TextBox x:Name="PasswordTextBox_Copy" Text="" Margin="547,336,565,329" TextChanged="PasswordTextBox_TextChanged"/>
-        <TextBox x:Name="PasswordTextBox_Copy1" Text="" Margin="547,293,565,371" TextChanged="PasswordTextBox_TextChanged"/>
+        <TextBox x:Name="PasswordTextBox" Text="" Margin="547,336,565,329"/> <!-- TextChanged="PasswordTextBox_TextChanged"/> -->
+        <TextBox x:Name="UserNameTextBox" Text="" Margin="547,293,565,371"/> <!-- TextChanged="UserNameTextBox_TextChanged"/> -->
     </Grid>
 </Window>

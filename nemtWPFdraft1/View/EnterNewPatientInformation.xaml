@@ -65,7 +65,7 @@
             <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="54,207,388,-34" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Content="Medi-Cal" Foreground="White"/>
             <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="52,244,390,-78" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Content="Partnership" Foreground="White"/>
             <CheckBox x:Name="Logisticare" Margin="32,293,0,-134" VerticalAlignment="Top" Height="20" IsChecked="{x:Null}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Width="35" Grid.ColumnSpan="2"/>
-            <CheckBox x:Name="Medi-Cal" Margin="35,175,0,-50" VerticalAlignment="Top" Height="30" IsChecked="{x:Null}" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Width="27"/>
+            <CheckBox x:Name="Medi_Cal" Margin="35,175,0,-50" VerticalAlignment="Top" Height="30" IsChecked="{x:Null}" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Width="27"/>
             <CheckBox x:Name="Partnership" Margin="33,216,0,-101" VerticalAlignment="Top" Height="45" IsChecked="{x:Null}" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Width="27"/>
             <CheckBox x:Name="Private_Pay" Margin="33,253,0,-124" VerticalAlignment="Top" Height="35" IsChecked="{x:Null}" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Width="17"/>
             <TextBox Grid.Column="2" Grid.Row="2" x:Name="PTprimaryaddress_Copy2" Text="" Margin="144,213,108,-28"/>

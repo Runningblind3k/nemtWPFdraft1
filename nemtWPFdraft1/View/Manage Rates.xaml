@@ -35,20 +35,20 @@
             <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Width="auto" FontSize="25" Margin="493,237,-358,-237">
                 Login
             </Button>
-            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy" Text="" Margin="35,-134,47,152"/>
-            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy1" Text="" Margin="35,-94,47,112"/>
-            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy2" Text="" Margin="453,-179,-363,197" Grid.Column="1"/>
-            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy3" Text="" Margin="453,-140,-363,158" Grid.Column="1"/>
-            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy4" Text="" Margin="33,-52,49,70"/>
+            <TextBox Grid.Row="0" x:Name="Milage" Text="" Margin="35,-134,47,152"/>
+            <TextBox Grid.Row="0" x:Name="O2" Text="" Margin="35,-94,47,112"/>
+            <TextBox Grid.Row="0" x:Name="GurneyCall" Text="" Margin="453,-179,-363,197" Grid.Column="1"/>
+            <TextBox Grid.Row="0" x:Name="GurneyMilage" Text="" Margin="453,-140,-363,158" Grid.Column="1"/>
+            <!-- <TextBox Grid.Row="0" x:Name="Attendant" Text="" Margin="33,-52,49,70"/> -->
             <Label Grid.Column="0" FontSize="25" Foreground="White" Margin="-175,-103,175,103" Content="O2"/>
             <Label Grid.Column="1" FontSize="25" Foreground="White" Margin="238,-185,-230,185" Content="Gurney Call"/>
             <Label Grid.Column="1" FontSize="25" Foreground="White" Margin="238,-140,-230,140" Content="Gurney Mileage"/>
             <Label Grid.Column="0" FontSize="25" Foreground="White" Margin="-177,-60,177,60" Content="Attendant"/>
-            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy5" Text="" Margin="453,-95,-363,113" Grid.Column="1"/>
+            <TextBox Grid.Row="0" x:Name="Attendant" Text="" Margin="453,-95,-363,113" Grid.Column="1"/>
             <Label Grid.Column="1" FontSize="25" Foreground="White" Margin="243,-103,-235,103" Content="Attendant"/>
-            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy6" Text="" Margin="453,-52,-363,70" Grid.Column="1"/>
+            <TextBox Grid.Row="0" x:Name="NightCall" Text="" Margin="453,-52,-363,70" Grid.Column="1"/>
             <Label Grid.Column="1" FontSize="25" Foreground="White" Margin="243,-60,-235,60" Content="Night Call"/>
-            <TextBox Grid.Row="0" x:Name="UserNameTextBox_Copy7" Text="" Margin="33,-9,49,27"/>
+            <TextBox Grid.Row="0" x:Name="SecondNightCall" Text="" Margin="33,-9,49,27"/>
             <Label FontSize="25" Foreground="White" Margin="-177,-17,177,17" Content="Night Call"/>
 
         </Grid>
