@@ -59,7 +59,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ViewModel\LoginWindowModel.cs" />
+    <Compile Include="ViewModel\AdminPageViewModel.cs" />
+    <Compile Include="ViewModel\EnterNewPatientInformationViewModel.cs" />
+    <Compile Include="ViewModel\LoginWindowViewModel.cs" />
+    <Compile Include="ViewModel\ManageRatesViewModel.cs" />
+    <Compile Include="ViewModel\ScheduleAnAppointmentViewModel.cs" />
     <Compile Include="View\AdminPage.xaml.cs">
       <DependentUpon>AdminPage.xaml</DependentUpon>
     </Compile>
@@ -71,6 +75,12 @@
     </Compile>
     <Compile Include="View\TAR.xaml.cs">
       <DependentUpon>TAR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ScheduleAnAppointment.xaml.cs">
+      <DependentUpon>ScheduleAnAppointment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Manage Rates.xaml.cs">
+      <DependentUpon>Manage Rates.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
@@ -114,6 +124,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\ScheduleAnAppointment.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Manage Rates.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="View\NewDoctorsInformation.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -134,6 +152,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Bar-gray-light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="merit_transparent_logo2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

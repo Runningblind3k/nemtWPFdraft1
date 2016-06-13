@@ -7,16 +7,16 @@ using System.ComponentModel;
 
 namespace nemtWPFdraft1.Model
 {
-    //class LoginWindowModel : INotifyPropertyChanged
+    //class LoginWindowViewModel : INotifyPropertyChanged
     //{
 
     //    private string name;
     //    // Declare the event
     //    public event PropertyChangedEventHandler PropertyChanged;
-    //    public LoginWindowModel()
+    //    public LoginWindowViewModel()
     //    {
     //    }
-    //    public LoginWindowModel(string value)
+    //    public LoginWindowViewModel(string value)
     //    {
     //        this.name = value;
     //    }
