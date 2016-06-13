@@ -36,7 +36,6 @@
             </Button>
 
         </Grid>
-        <Image x:Name="___nemtWPFdraft1_component_merit_transparent_logo_png" Margin="0,5,845,509" Source="/nemtWPFdraft1;component/merit_transparent_logo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
         <TextBox x:Name="PasswordTextBox_Copy" Text="" Margin="547,336,565,329" TextChanged="PasswordTextBox_TextChanged"/>
         <TextBox x:Name="PasswordTextBox_Copy1" Text="" Margin="547,293,565,371" TextChanged="PasswordTextBox_TextChanged"/>
     </Grid>
