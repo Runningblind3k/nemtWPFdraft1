@@ -17,9 +17,9 @@ namespace nemtWPFdraft1.View
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class ScheduleAppointmentView : Window
     {
-        public Window1()
+        public ScheduleAppointmentView()
         {
             InitializeComponent();
         }

@@ -60,6 +60,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ViewModel\AdminPageViewModel.cs" />
+    <Compile Include="ViewModel\DoctorsInformationViewModel.cs" />
     <Compile Include="ViewModel\EnterNewPatientInformationViewModel.cs" />
     <Compile Include="ViewModel\LoginWindowViewModel.cs" />
     <Compile Include="ViewModel\ManageRatesViewModel.cs" />
@@ -67,8 +68,8 @@
     <Compile Include="View\AdminPage.xaml.cs">
       <DependentUpon>AdminPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\DoctorsInformation.xaml.cs">
-      <DependentUpon>DoctorsInformation.xaml</DependentUpon>
+    <Compile Include="View\DoctorsInformationView.xaml.cs">
+      <DependentUpon>DoctorsInformationView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\NewDoctorsInformation - Copy.xaml.cs">
       <DependentUpon>TAR2.xaml</DependentUpon>
@@ -76,17 +77,17 @@
     <Compile Include="View\TAR.xaml.cs">
       <DependentUpon>TAR.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\ScheduleAnAppointment.xaml.cs">
-      <DependentUpon>ScheduleAnAppointment.xaml</DependentUpon>
+    <Compile Include="View\ScheduleAppointmentView.xaml.cs">
+      <DependentUpon>ScheduleAppointmentView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\Manage Rates.xaml.cs">
-      <DependentUpon>Manage Rates.xaml</DependentUpon>
+    <Compile Include="View\ManageRatesView.xaml.cs">
+      <DependentUpon>ManageRatesView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\EnterNewPatientInformation.xaml.cs">
-      <DependentUpon>EnterNewPatientInformation.xaml</DependentUpon>
+    <Compile Include="View\EnterNewPatientInformationView.xaml.cs">
+      <DependentUpon>EnterNewPatientInformationView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -124,15 +125,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\ScheduleAnAppointment.xaml">
+    <Page Include="View\ScheduleAppointmentView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Manage Rates.xaml">
+    <Page Include="View\ManageRatesView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\DoctorsInformation.xaml">
+    <Page Include="View\DoctorsInformationView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -148,7 +149,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\EnterNewPatientInformation.xaml">
+    <Page Include="View\EnterNewPatientInformationView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

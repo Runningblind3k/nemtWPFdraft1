@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace nemtWPFdraft1.View
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for LoginView.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class ManageRatesView : Window
     {
-        public Window1()
+        public ManageRatesView()
         {
             InitializeComponent();
         }

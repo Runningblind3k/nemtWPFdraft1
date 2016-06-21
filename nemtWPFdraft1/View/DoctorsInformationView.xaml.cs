@@ -17,9 +17,9 @@ namespace nemtWPFdraft1.View
     /// <summary>
     /// Interaction logic for LoginView.xaml
     /// </summary>
-    public partial class LoginView : Window
+    public partial class DoctorsInformationView : Window
     {
-        public LoginView()
+        public DoctorsInformationView()
         {
             InitializeComponent();
         }
