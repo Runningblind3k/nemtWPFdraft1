@@ -47,6 +47,6 @@
             <CheckBox x:Name="RoundTrip" Content="Round Trip" HorizontalAlignment="Left" Margin="102,196,0,-130" Grid.Row="2" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2"/>
             <CheckBox x:Name="ReturnTrip" Content="Needs a Return Trip." HorizontalAlignment="Left" Margin="100,316,0,-247" Grid.Row="2" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2"/>
         </Grid>
-        <Image x:Name="___nemtWPFdraft1_component_merit_transparent_logo2_png" Margin="60,6,1165,635" Source="/nemtWPFdraft1;component/merit_transparent_logo2.png" Stretch="Fill"/>
+        <Image x:Name="___nemtWPFdraft1_component_MeritTransparentLogoTwo_png" Margin="60,6,1165,635" Source="/nemtWPFdraft1;component/MeritTransparentLogoTwo.png" Stretch="Fill"/>
     </Grid>
 </Window>
