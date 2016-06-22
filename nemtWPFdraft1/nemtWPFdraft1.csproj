@@ -62,7 +62,7 @@
     <Compile Include="ViewModel\AdminPageViewModel.cs" />
     <Compile Include="ViewModel\DoctorsInformationViewModel.cs" />
     <Compile Include="ViewModel\EnterNewPatientInformationViewModel.cs" />
-    <Compile Include="ViewModel\LoginWindowViewModel.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\ManageRatesViewModel.cs" />
     <Compile Include="ViewModel\ScheduleAnAppointmentViewModel.cs" />
     <Compile Include="View\AdminPage.xaml.cs">
@@ -71,11 +71,8 @@
     <Compile Include="View\DoctorsInformationView.xaml.cs">
       <DependentUpon>DoctorsInformationView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\NewDoctorsInformation - Copy.xaml.cs">
-      <DependentUpon>TAR2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\TAR.xaml.cs">
-      <DependentUpon>TAR.xaml</DependentUpon>
+    <Compile Include="View\TAR2View.xaml.cs">
+      <DependentUpon>TAR2View.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\ScheduleAppointmentView.xaml.cs">
       <DependentUpon>ScheduleAppointmentView.xaml</DependentUpon>
@@ -88,6 +85,9 @@
     </Compile>
     <Compile Include="View\EnterNewPatientInformationView.xaml.cs">
       <DependentUpon>EnterNewPatientInformationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TARView.xaml.cs">
+      <DependentUpon>TARView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -137,11 +137,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\TAR2.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\TAR.xaml">
+    <Page Include="View\TAR2View.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -150,6 +146,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\EnterNewPatientInformationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TARView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -1,8 +1,8 @@
-﻿<!-- This is a comment in XAML
+﻿<!-- This is a comment in XAML test
     
     XAML is basically a description of a user interface. -->
 
-<Window x:Class="nemtWPFdraft1.View.LoginView"
+<Window x:Class="nemtWPFdraft1.View.TAR2View"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
