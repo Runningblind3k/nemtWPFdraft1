@@ -26,24 +26,24 @@
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
-            <Label Grid.Column="0" Grid.Row="0" FontSize="25" Margin="-7,-3,7,0" Height="45" VerticalAlignment="Top" RenderTransformOrigin="0.808,0.444" Foreground="White" Content="First Name"/>
-            <Label Grid.Column="1" FontSize="25" Margin="566,-1,-467,1" Foreground="White" Content="Last Name"/>
+            <Label Grid.Column="0" Grid.Row="0" FontSize="16" Margin="36,9,371,0" Height="45" VerticalAlignment="Top" RenderTransformOrigin="0.847,0.432" Foreground="White" Content="First Name" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+            <Label Grid.Column="1" FontSize="16" Margin="607,9,-508,36" Foreground="White" Content="Last Name" Grid.RowSpan="3"/>
             <TextBox Grid.Row="0" x:Name="PTFirstName" Text="" Margin="128,12,158,13" Grid.ColumnSpan="2"/>
             <TextBox Grid.Column="1" x:Name="PTMiddleInitial" Text="" Margin="448,14,-130,11" Grid.RowSpan="1"/>
             <TextBox Grid.Column="1" x:Name="PTLastName" Text="" Margin="698,14,-601,11"/>
             <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Width="108" FontSize="25" Margin="908,451,-610,-451" Content="Submit" />
-            <Label Grid.Column="1" FontSize="25" Margin="288,-1,-62,1" Content="Middle Initial" Foreground="White"/>
+            <Label Grid.Column="1" FontSize="16" Margin="341,9,-115,36" Content="Middle Initial" Foreground="White" Grid.RowSpan="3"/>
             <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTprimaryaddress" Text="" Margin="24,63,-273,-44"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="25" Margin="27,23,-66,-30" Content="Patient's Primary Residence" Foreground="White"/>
+            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="25,32,-64,-39" Content="Patient's Primary Residence" Foreground="White"/>
             <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTnotes" Text="" Margin="665,158,-630,-305"/>
-            <Label Grid.Column="1" FontSize="25" Margin="666,116,-567,-123" Content="Notes" Grid.Row="2" Foreground="White"/>
-            <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTprimaryaddress_Copy" Text="" Margin="25,158,88,-139"/>
-            <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTprimaryaddress_Copy1" Text="" Margin="351,158,-238,-139"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="25" Margin="20,118,123,-125" Height="45" VerticalAlignment="Top" Content="Primary Phone#" Foreground="White"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="25" Margin="348,118,-205,-120" Height="45" VerticalAlignment="Top" Content="Secondary Phone#" Foreground="White"/>
+            <Label Grid.Column="1" FontSize="16" Margin="665,128,-566,-135" Content="Notes" Grid.Row="2" Foreground="White"/>
+            <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTprimaryaddress_Copy" Text="" Margin="25,158,226,-139"/>
+            <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTprimaryaddress_Copy1" Text="" Margin="351,158,-101,-139"/>
+            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="24,128,119,-129" Height="45" VerticalAlignment="Top" Content="Primary Phone#" Foreground="White"/>
+            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="351,128,-208,-128" Height="45" VerticalAlignment="Top" Content="Secondary Phone#" Foreground="White"/>
             <Label Grid.Column="1" FontSize="35" Margin="525,-72,-329,64" Content="Billing" Foreground="Black" FontWeight="Bold"/>
             <TextBox Grid.Column="1" x:Name="PTLastName_Copy" Text="" Margin="753,63,-602,-44" Grid.Row="2"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="25" Margin="748,22,-592,-29" Content="Date of Birth" Foreground="White"/>
+            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="753,32,-597,-39" Content="Date of Birth" Foreground="White"/>
             <Label Grid.Column="1" FontSize="35" Margin="661,-71,-465,63" Content="Scheduling" Foreground="Black" FontWeight="Bold"/>
             <Label Grid.Column="1" FontSize="35" Margin="870,-71,-674,63" Content="Settings" Foreground="Black" FontWeight="Bold"/>
         </Grid>
@@ -60,16 +60,16 @@
                 <ColumnDefinition Width="235*"/>
                 <ColumnDefinition Width="398*"/>
             </Grid.ColumnDefinitions>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="54,168,388,4" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Foreground="White" Content="Logisticare"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="54,283,388,-113" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Content="Private Pay" Foreground="White"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="54,207,388,-34" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Content="Medi-Cal" Foreground="White"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="52,244,390,-78" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Content="Partnership" Foreground="White"/>
+            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="54,168,388,4" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Foreground="White" Content="Logisticare"/>
+            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="54,283,388,-113" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Content="Private Pay" Foreground="White"/>
+            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="54,207,388,-34" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Content="Medi-Cal" Foreground="White"/>
+            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="52,244,390,-78" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Content="Partnership" Foreground="White"/>
             <CheckBox x:Name="Logisticare" Margin="32,293,0,-134" VerticalAlignment="Top" Height="20" IsChecked="{x:Null}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Width="35" Grid.ColumnSpan="2"/>
             <CheckBox x:Name="Medi_Cal" Margin="35,175,0,-50" VerticalAlignment="Top" Height="30" IsChecked="{x:Null}" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Width="27"/>
             <CheckBox x:Name="Partnership" Margin="33,216,0,-101" VerticalAlignment="Top" Height="45" IsChecked="{x:Null}" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Width="27"/>
             <CheckBox x:Name="Private_Pay" Margin="33,253,0,-124" VerticalAlignment="Top" Height="35" IsChecked="{x:Null}" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Width="17"/>
-            <TextBox Grid.Column="2" Grid.Row="2" x:Name="PTprimaryaddress_Copy2" Text="" Margin="144,213,108,-28"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="15" Margin="139,187,108,-16" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Foreground="White" Content="Medi-Cal Identification No."/>
+            <TextBox Grid.Column="2" Grid.Row="2" x:Name="PTprimaryaddress_Copy2" Text="" Margin="144,213,159,-28"/>
+            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="144,183,103,-9" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Foreground="White" Content="Medi-Cal Identification No."/>
         </Grid>
         <Image x:Name="___nemtWPFdraft1_component_MeritTransparentLogoTwo_png" Margin="60,6,1165,635" Source="/nemtWPFdraft1;component/MeritTransparentLogoTwo.png" Stretch="Fill"/>
     </Grid>
