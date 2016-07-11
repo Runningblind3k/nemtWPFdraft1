@@ -1,0 +1,42 @@
+﻿<Window x:Class="nemtWPFdraft1.View.ScrollExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nemtWPFdraft1.View"
+        mc:Ignorable="d"
+        Title="ScrollExample" Height="300" Width="300">
+    <Grid>
+        <ScrollViewer CanContentScroll="True">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+
+                <TextBlock Grid.Row="0" >Stuff</TextBlock>
+                <TextBlock Grid.Row="1" Margin="5,5,5,5">Other Stuff</TextBlock>
+                <TextBlock Grid.Row="2" Margin="5,5,5,5" TextWrapping="Wrap">Lorem ipsum dolor sit amet, in lorem nunc vel a, sit feugiat accumsan orci massa anim, curae fusce magna. Elit in ligula nec rutrum nibh, lacus fermentum, sed et morbi et enim ipsum, sed mattis dui. Mi in mollis nonummy pharetra, a sit lacus sagittis, mauris vitae euismod. Litora velit vel non, quam tincidunt feugiat, in et accumsan fusce, et erat aenean lectus. Sem volutpat enim pede, scelerisque aliquam sodales congue commodo eu. Vestibulum aliquet fusce placerat hac vel, non erat a ipsum at, turpis urna mollis diam ultrices.</TextBlock>
+                <TextBlock Grid.Row="3" Margin="20,20,20,20" TextWrapping="Wrap">Nec neque quam nulla quam, molestie vel, sed montes, elit justo tempus, vestibulum sed potenti pede ultrices. Dolor fusce, nascetur malesuada donec nec id fusce. Sapien interdum, eleifend ultricies pulvinar etiam ipsum imperdiet, in etiam, malesuada orci nunc. Morbi ligula, id donec. Consequat aliquam in quisque. Aliquet augue pulvinar adipiscing neque malesuada neque, et lorem dolor cursus. Vel etiam vel condimentum tristique in, penatibus convallis, non ut eu suscipit viverra, mollis metus repudiandae nulla lectus, at adipiscing aliquam. Parturient neque ac urna hendrerit id non. In in vehicula nam, augue leo, leo integer fusce, wisi adipiscing, ultricies imperdiet egestas nisl lobortis. Aliquet nulla mattis quisque mauris mattis, neque felis.</TextBlock>
+                <TextBlock Grid.Row="4">Stuff</TextBlock>
+                <TextBlock Grid.Row="5">Stuff</TextBlock>
+                <TextBlock Grid.Row="6">Stuff</TextBlock>
+                <TextBlock Grid.Row="7">Stuff</TextBlock>
+                <TextBlock Grid.Row="8">Stuff</TextBlock>
+                
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Window>

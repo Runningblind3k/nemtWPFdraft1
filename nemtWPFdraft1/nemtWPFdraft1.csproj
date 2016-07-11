@@ -71,6 +71,9 @@
     <Compile Include="View\DoctorsInformationView.xaml.cs">
       <DependentUpon>DoctorsInformationView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ScrollExample.xaml.cs">
+      <DependentUpon>ScrollExample.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\TAR2View.xaml.cs">
       <DependentUpon>TAR2View.xaml</DependentUpon>
     </Compile>
@@ -136,6 +139,10 @@
     <Page Include="View\DoctorsInformationView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ScrollExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\TAR2View.xaml">
       <Generator>MSBuild:Compile</Generator>
