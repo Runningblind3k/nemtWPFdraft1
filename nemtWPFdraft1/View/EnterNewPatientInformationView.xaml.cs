@@ -23,5 +23,10 @@ namespace nemtWPFdraft1.View
         {
             InitializeComponent();
         }
+
+        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

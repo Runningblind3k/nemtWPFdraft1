@@ -42,13 +42,14 @@
         </Grid>
         <Image x:Name="___nemtWPFdraft1_component_Bar_gray_light_png" Margin="0,6,2,635" Source="/nemtWPFdraft1;component/Bar-gray-light.png" Stretch="Fill"/>
         <Image x:Name="___nemtWPFdraft1_component_MeritTransparentLogoTwo_png" Margin="60,6,1168,635" Source="/nemtWPFdraft1;component/MeritTransparentLogoTwo.png" Stretch="Fill"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="405,157,0,0" TextWrapping="Wrap" Text="DoctorsName" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="405,120,0,0" TextWrapping="Wrap" Text="DoctorsPhone" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="405,195,0,0" TextWrapping="Wrap" Text="DoctorsFax" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="410,317,0,0" TextWrapping="Wrap" Text="DoctorsAddress" VerticalAlignment="Top" Width="465"/>
-        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="410,377,0,0" TextWrapping="Wrap" Text="DoctorsCity" VerticalAlignment="Top" Width="195"/>
-        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="23" Margin="645,377,0,0" TextWrapping="Wrap" Text="DoctorsState" VerticalAlignment="Top" Width="60"/>
-        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Height="23" Margin="755,375,0,0" TextWrapping="Wrap" Text="DoctorsZip" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox7" HorizontalAlignment="Left" Height="23" Margin="910,315,0,0" TextWrapping="Wrap" Text="DoctorsSuiteNumber" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="DoctorsName" HorizontalAlignment="Left" Height="23" Margin="405,157,0,0" TextWrapping="Wrap" Text="Doctors Name" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DoctorsPhone" HorizontalAlignment="Left" Height="23" Margin="405,120,0,0" TextWrapping="Wrap" Text="DoctorsPhone" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DoctorsFax" HorizontalAlignment="Left" Height="23" Margin="405,195,0,0" TextWrapping="Wrap" Text="Doctors Fax" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DoctorsAddress" HorizontalAlignment="Left" Height="23" Margin="410,317,0,0" TextWrapping="Wrap" Text="Doctors Address" VerticalAlignment="Top" Width="465"/>
+        <TextBox x:Name="DoctorsCity" HorizontalAlignment="Left" Height="23" Margin="410,377,0,0" TextWrapping="Wrap" Text="Doctors City" VerticalAlignment="Top" Width="195"/>
+        <TextBox x:Name="DoctorsState" HorizontalAlignment="Left" Height="23" Margin="645,377,0,0" TextWrapping="Wrap" Text="Doctors State" VerticalAlignment="Top" Width="60"/>
+        <TextBox x:Name="DoctorsZip" HorizontalAlignment="Left" Height="23" Margin="755,375,0,0" TextWrapping="Wrap" Text="Doctors Zip" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DoctorsSuiteNumber" HorizontalAlignment="Left" Height="23" Margin="910,315,0,0" TextWrapping="Wrap" Text="Doctors Suite Number" VerticalAlignment="Top" Width="90"/>
+        <CheckBox x:Name="AddASecondAddress" Content="Add a second address" HorizontalAlignment="Left" Margin="409,425,0,0" VerticalAlignment="Top" Foreground="White"/>
     </Grid>
 </Window>
