@@ -10,3 +10,6 @@ namespace nemtWPFdraft1.ViewModel
     {
     }
 }
+
+
+// test
