@@ -18,85 +18,85 @@
             <Grid >
                 <Grid Margin="0,0,3,0">
                     <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="1114" Height="472" Margin="10,71,145,146" >
-            <Grid.RowDefinitions>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto"/>
-                <ColumnDefinition Width="auto"/>
-            </Grid.ColumnDefinitions>
-            <Label Grid.Column="0" Grid.Row="0" FontSize="16" Margin="36,9,371,0" Height="45" VerticalAlignment="Top" RenderTransformOrigin="0.847,0.432" Foreground="White" Content="First Name" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
-            <Label Grid.Column="1" FontSize="16" Margin="448,9,-251,36" Foreground="White" Content="Last Name" Grid.RowSpan="3"/>
-            <TextBox Grid.Row="0" x:Name="FirstName" Text="" Margin="100,12,170,13" Grid.Column="1"/>
-            <TextBox Grid.Column="1" x:Name="MiddleInitial" Text="" Margin="0,14,30,11" Grid.RowSpan="1" HorizontalAlignment="Right" Width="28"/>
-            <TextBox Grid.Column="1" x:Name="LastName" Text="" Margin="537,14,-350,11" RenderTransformOrigin="0.5,0.5">
-                <TextBox.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-0.065"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </TextBox.RenderTransform>
-            </TextBox>
-            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Width="108" FontSize="25" Margin="931,494,-588,-451" Content="Submit" />
-            <Label Grid.Column="1" FontSize="16" Margin="0,9,60,36" Content="Middle Initial" Foreground="White" Grid.RowSpan="3" HorizontalAlignment="Right" Width="105"/>
-            <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTPrimaryAddress" Text="" Margin="30,81,-251,-24" Height="25" VerticalAlignment="Top"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="26,47,129,-54" Content="Patient's Primary Address" Foreground="White"/>
-            <TextBox Grid.Column="1" Grid.Row="2" x:Name="Notes" Text="" Margin="732,103,-697,-249"/>
-            <Label Grid.Column="1" FontSize="16" Margin="732,68,-633,-75" Content="Notes" Grid.Row="2" Foreground="White"/>
-            <TextBox Grid.Column="1" Grid.Row="2" x:Name="PrimaryPhone" Text="" Margin="30,311,221,-253"/>
-            <TextBox Grid.Column="1" Grid.Row="2" x:Name="SecondaryPhone" Text="" Margin="265,311,-15,-253"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="29,281,114,-248" Height="45" VerticalAlignment="Top" Content="Primary Phone#" Foreground="White"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="265,281,-122,-247" Height="45" VerticalAlignment="Top" Content="Secondary Phone#" Foreground="White"/>
-            <Label Grid.Column="1" FontSize="35" Margin="525,-72,-329,64" Content="Billing" Foreground="Black" FontWeight="Bold"/>
-            <TextBox Grid.Column="1" x:Name="DateOfBirth" Text="" Margin="117,20,86,37" Grid.Row="2" Height="25"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="0,16,287,-23" Content="Date of Birth" Foreground="White"/>
-            <Label Grid.Column="1" FontSize="35" Margin="661,-71,-465,63" Content="Scheduling" Foreground="Black" FontWeight="Bold"/>
-            <Label Grid.Column="1" FontSize="35" Margin="870,-71,-674,63" Content="Settings" Foreground="Black" FontWeight="Bold"/>
-            <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTsecondaryaddress" Text="" Margin="26,147,-250,-89"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="26,115,57,-123" Content="Patient's Secondary Address" Foreground="White"/>
-            <TextBox Grid.Column="1" x:Name="Ssn" Margin="732,0,-456,36" Grid.Row="2" Height="25" VerticalAlignment="Bottom"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="682,16,-329,-23" Content="SSN" Foreground="White"/>
-            <TextBox Grid.Column="1" Grid.Row="2" x:Name="City" Text="" Margin="28,224,223,-166"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="27,194,116,-165" Height="45" VerticalAlignment="Top" Content="City" Foreground="White"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="261,198,30,-159" Height="45" VerticalAlignment="Top" Content="State" Foreground="White"/>
-            <TextBox Grid.Column="1" Grid.Row="2" x:Name="Zip" Text="" Margin="541,222,-240,-164"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="541,194,-305,-166" Height="45" VerticalAlignment="Top" Content="Zip" Foreground="White"/>
-            <Label FontSize="16" Margin="835,9,-608,0" Foreground="White" Content="Nickname" Grid.Column="1" Grid.RowSpan="2"/>
-            <TextBox Grid.Column="1" x:Name="LastName_Copy" Text="" Margin="924,10,-622,14"/>
-            <TextBox Grid.Column="1" x:Name="Sex" Margin="448,0,-184,37" Grid.Row="2" Height="25" VerticalAlignment="Bottom"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="401,16,-48,-23" Content="Sex" Foreground="White"/>
-            <TextBox Grid.Column="1" x:Name="DateOfBirth_Copy" Text="" Margin="266,223,40,-165" Grid.Row="2"/>
-        </Grid>
-        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="1230" Height="375" Margin="1,175,38,139" >
-            <Grid.RowDefinitions>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto"/>
-                <ColumnDefinition Width="auto"/>
-                <ColumnDefinition Width="482*"/>
-                <ColumnDefinition Width="235*"/>
-                <ColumnDefinition Width="398*"/>
-            </Grid.ColumnDefinitions>
-            <TextBox Grid.Column="2" Grid.Row="2" x:Name="MedicalIdentificationNo" Text="" Margin="249,336,55,-134" Height="25"/>
-            <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="249,308,258,-117" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="3" Foreground="White" Content="Medi-Cal Identification No."/>
-            <TextBox Grid.Column="3" Grid.Row="2" x:Name="PrivetPay" Text="" Margin="10,337,21,-133" Height="25"/>
-            <Label Grid.Column="3" Grid.Row="2" FontSize="16" Margin="10,310,404,-116" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Foreground="White" Content="Privet Pay"/>
-        </Grid>
-        <Grid>
-            <ComboBox x:Name="SelectPTInsurance" HorizontalAlignment="Left" Margin="60,520,0,0" VerticalAlignment="Top" Width="120"/>
-            <ComboBoxItem>Logisticare</ComboBoxItem>
-            <ComboBoxItem>Medi-Cal</ComboBoxItem>
-            <ComboBoxItem>Partnership</ComboBoxItem>
-            <ComboBoxItem Margin="60,520,1077,164">Private Pay</ComboBoxItem>
-        </Grid>
-        </Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Grid.Row="0" FontSize="16" Margin="36,9,371,0" Height="45" VerticalAlignment="Top" RenderTransformOrigin="0.847,0.432" Foreground="White" Content="First Name" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+                        <Label Grid.Column="1" FontSize="16" Margin="448,9,-251,64" Foreground="White" Content="Last Name" Grid.RowSpan="3"/>
+                        <TextBox Grid.Row="0" x:Name="FirstName" Text="" Margin="100,12,170,13" Grid.Column="1"/>
+                        <TextBox Grid.Column="1" x:Name="MiddleInitial" Text="" Margin="0,14,30,11" Grid.RowSpan="1" HorizontalAlignment="Right" Width="28"/>
+                        <TextBox Grid.Column="1" x:Name="LastName" Text="" Margin="537,14,-350,11" RenderTransformOrigin="0.5,0.5">
+                            <TextBox.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="-0.065"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </TextBox.RenderTransform>
+                        </TextBox>
+                        <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Width="108" FontSize="25" Margin="931,494,-588,-451" Content="Submit" />
+                        <Label Grid.Column="1" FontSize="16" Margin="0,9,60,36" Content="Middle Initial" Foreground="White" Grid.RowSpan="3" HorizontalAlignment="Right" Width="105"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTPrimaryAddress" Text="" Margin="30,81,-251,-24" Height="25" VerticalAlignment="Top"/>
+                        <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="26,47,129,-54" Content="Patient's Primary Address" Foreground="White"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" x:Name="Notes" Text="" Margin="732,103,-697,-249"/>
+                        <Label Grid.Column="1" FontSize="16" Margin="732,68,-633,-75" Content="Notes" Grid.Row="2" Foreground="White"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" x:Name="PrimaryPhone" Text="" Margin="30,311,221,-253"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" x:Name="SecondaryPhone" Text="" Margin="265,311,-15,-253"/>
+                        <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="29,281,114,-248" Height="45" VerticalAlignment="Top" Content="Primary Phone#" Foreground="White"/>
+                        <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="265,281,-122,-247" Height="45" VerticalAlignment="Top" Content="Secondary Phone#" Foreground="White"/>
+                        <Label Grid.Column="1" FontSize="35" Margin="525,-72,-329,64" Content="Billing" Foreground="Black" FontWeight="Bold"/>
+                        <TextBox Grid.Column="1" x:Name="DateOfBirth" Text="" Margin="117,20,86,37" Grid.Row="2" Height="25"/>
+                        <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="0,16,287,-23" Content="Date of Birth" Foreground="White"/>
+                        <Label Grid.Column="1" FontSize="35" Margin="661,-71,-465,63" Content="Scheduling" Foreground="Black" FontWeight="Bold"/>
+                        <Label Grid.Column="1" FontSize="35" Margin="870,-71,-674,63" Content="Settings" Foreground="Black" FontWeight="Bold"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" x:Name="PTsecondaryaddress" Text="" Margin="26,147,-250,-89"/>
+                        <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="26,115,57,-123" Content="Patient's Secondary Address" Foreground="White"/>
+                        <TextBox Grid.Column="1" x:Name="Ssn" Margin="732,0,-456,36" Grid.Row="2" Height="25" VerticalAlignment="Bottom"/>
+                        <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="682,16,-329,-23" Content="SSN" Foreground="White"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" x:Name="City" Text="" Margin="28,224,223,-166"/>
+                        <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="27,194,116,-165" Height="45" VerticalAlignment="Top" Content="City" Foreground="White"/>
+                        <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="261,198,30,-159" Height="45" VerticalAlignment="Top" Content="State" Foreground="White"/>
+                        <TextBox Grid.Column="1" Grid.Row="2" x:Name="Zip" Text="" Margin="361,222,-60,-164"/>
+                        <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="541,194,-305,-166" Height="45" VerticalAlignment="Top" Content="Zip" Foreground="White"/>
+                        <Label FontSize="16" Margin="835,9,-608,0" Foreground="White" Content="Nickname" Grid.Column="1" Grid.RowSpan="2"/>
+                        <TextBox Grid.Column="1" x:Name="LastName_Copy" Text="" Margin="924,10,-622,14"/>
+                        <TextBox Grid.Column="1" x:Name="Sex" Margin="448,0,-13,37" Grid.Row="2" Height="25" VerticalAlignment="Bottom"/>
+                        <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="401,16,2,19" Content="Sex" Foreground="White"/>
+                        <TextBox Grid.Column="1" x:Name="DateOfBirth_Copy" Text="" Margin="266,223,127,-165" Grid.Row="2"/>
+                    </Grid>
+                    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Width="1230" Height="375" Margin="1,175,38,139" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="482*"/>
+                            <ColumnDefinition Width="235*"/>
+                            <ColumnDefinition Width="398*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox Grid.Column="2" Grid.Row="2" x:Name="MedicalIdentificationNo" Text="" Margin="249,336,55,-134" Height="25"/>
+                        <Label Grid.Column="1" Grid.Row="2" FontSize="16" Margin="249,308,258,-117" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="3" Foreground="White" Content="Medi-Cal Identification No."/>
+                        <TextBox Grid.Column="3" Grid.Row="2" x:Name="PrivetPay" Text="" Margin="10,337,21,-133" Height="25"/>
+                        <Label Grid.Column="3" Grid.Row="2" FontSize="16" Margin="10,310,404,-116" Height="36" VerticalAlignment="Center" Grid.ColumnSpan="2" Foreground="White" Content="Privet Pay"/>
+                    </Grid>
+                    <Grid>
+                        <ComboBox x:Name="SelectPTInsurance" HorizontalAlignment="Left" Margin="60,520,0,0" VerticalAlignment="Top" Width="120"/>
+                        <ComboBoxItem Margin="60,520,1077,164">Logisticare</ComboBoxItem>
+                        <ComboBoxItem Margin="60,520,1077,164">Medi-Cal</ComboBoxItem>
+                        <ComboBoxItem Margin="60,520,1077,164">Partnership</ComboBoxItem>
+                        <ComboBoxItem Margin="60,520,1077,164">Private Pay</ComboBoxItem>
+                    </Grid>
+                </Grid>
             </Grid>
         </ScrollViewer>
     </Grid>

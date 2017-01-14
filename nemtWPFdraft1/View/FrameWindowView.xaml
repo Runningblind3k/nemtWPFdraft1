@@ -29,12 +29,12 @@
             <Button Height="50" Width="50" >Reports</Button>
             <Button Height="50" Width="50" >Settings</Button>
             <Button Height="50" Width="50" >Doctors Look Up</Button>
-            <Button Height="50" Width="50" >F</Button>
+            <Button Height="50" Width="50" >Admin</Button>
 
         </StackPanel>
         <TextBlock Grid.Row="0" Grid.Column="1" Margin="5,5,5,5" TextWrapping="Wrap"><InlineUIContainer>
                 <Image x:Name="___nemtWPFdraft1_component_Bar_gray_light_png" Source="/nemtWPFdraft1;component/Bar-gray-light.png" Stretch="Fill" Height="48" Width="1195"/>
             </InlineUIContainer><Run Text="diam ultrices."/></TextBlock>
-        <control:Test Grid.Column="1" Grid.Row="1"/>
+        <control:Test Grid.Column="1" Grid.Row="1" Loaded="Test_Loaded"/>
     </Grid>
 </Window>
